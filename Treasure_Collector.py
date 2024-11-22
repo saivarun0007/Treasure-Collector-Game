@@ -52,3 +52,18 @@ def update():
             time_up()
 place_coin()
 pgzrun.go()
+
+# There are lots of ways to modify this game. We could try changing the "FOX" to different character like "HEDGEHOG, LION, TIGER, ..." and 
+# we could make the game last longer.
+# =====================================
+# ===> clock.schedule(time_up.15.0)
+# ===> hedegehog = Actor("hedgehog")
+# ===>  if keyboard.left:
+#            fox.x -= 4
+#        if keyboard.right:
+#            fox.x += 4
+#        if keyboard.up:
+#            fox.y -= 4
+#        if keyboard.down:
+#            fox.y += 4
+# =====================================
